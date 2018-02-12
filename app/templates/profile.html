@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>Profile | Stephan Witter</title>
+        	<link type="text/css" rel="stylesheet" href="../static/css/app.css"/>
+	</head>
+    <body>
+	  <div id="wrapper">
+        <div class="top_sector">
+             <div class="personal_info">
+				<table class="personal_table color_w">
+					    <tr><br/><br/></tr>
+						<tr>
+						<td><img class="profile_pic" src="../static/pic_image.jpg"></td>
+						</tr>
+						<tr>
+						<td class="big_text">Stephan Witter</td>
+						</tr>
+						<tr>
+						<td>@stephan_witter</td>
+						</tr>
+						<tr>
+						<td>Kingston ,Jamaica</td>
+						</tr>
+						<tr>
+							{% block main %}
+						<td>Joined on {{ timestamp }}</td>
+							{% endblock %}
+						</tr>
+						<tr><br/><br/></tr>
+				</table>
+          	</div>
+       </div>
+       <div class="bottom_sector">
+           <div class="description" >
+        		<p >I am a second year student of the University of the West Indies.I am pursing a major inComputer Science and Accounting.I am a determine individual who strives for greatness and see my goal through to the bitter end.I strive to be efficent in every aspect of my life,therefore work at my maxinum capacity.My dream is to be immortalize in the heart of futher generation to come,marking my name among the greats.</p>
+           </div>
+		   <div class="social" >
+       			<table class="follor_details">
+       				<tr>
+       					<td class="medium_text" >4</td>
+       					<td class="medium_text" >201</td>
+       					<td class="medium_text" >205</td>
+       				</tr>
+       				<tr>
+       					<td class="small_text spec" >Post</td>
+       					<td class="small_text spec" >Following</td>
+       					<td class="small_text spec" >Followers</td>
+       				</tr>
+       			</table>
+           </div>
+		   <div class="follow" >
+       			<input type="button" class="submit_btn" value="Follow">
+           </div>
+	  </div>
+    </div>
+  </body>
+</html>
